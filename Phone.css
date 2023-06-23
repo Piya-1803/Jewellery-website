@@ -1,0 +1,555 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.page-wrapper{
+  background-color: rgb(247, 247, 236);
+  min-height: 100vh;
+}
+
+
+.hamburger{
+  display: block;
+  
+}
+.hamburger.active .bar:nth-child(2){
+  opacity: 0;
+}
+.hamburger.active .bar:nth-child(1){
+  transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(3){
+  transform: translateY(-8px) rotate(-45deg);
+}
+.nav-menu{
+  position: fixed;
+  left: -80%;
+  top: 70px;
+  gap: 0;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.37);
+  width: 50%;
+  text-align: center;
+  transition: 0.3s;
+  z-index: 1;
+}
+.nav-item{
+  margin: 16px 0;
+  
+}
+.nav-menu.active{
+  left: 0;
+}
+
+.nav-menu a{
+  color: white;
+  font-weight: bold;
+}
+
+
+.Cover img{
+  width:100%;
+  height: auto;
+}
+
+
+.nav-img img{
+padding-bottom: 81px;
+}
+
+
+.Cover h3 {
+color: rgb(255, 255, 255);
+position: absolute;
+top: 45%;
+left: 50%;
+transform: translateX(-50%);
+font-size: 20px;
+
+}
+.Cover h2 {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 28px;
+  letter-spacing: 5px;
+  }
+  
+
+.Cover h5 {
+color: rgb(255, 255, 255);
+position: absolute;
+top: 70%;
+left: 50%;
+transform: translateX(-50%);
+font-size: 13px;
+}
+.Cover button{
+position: absolute;
+top: 80%;
+left: 50%;
+transform: translateX(-50%);
+background-color: white;
+color: black;
+border: none;
+padding: 10px 25px;
+text-decoration: solid;
+transition: transform 0.2s ease-in-out;
+
+}
+.collection{
+text-align: center;
+font-size: 30px;
+font-weight: medium;
+padding-top: 50px;
+padding-bottom: 30px;
+font-family: 'Quicksand', sans-serif;
+}
+
+.mainpics{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.mainpics button{
+
+  padding: 15px 10px;
+  color: black;
+  background-color:white ;
+  margin-top: 5px;
+  transition: transform 0.2s ease-in-out;
+  width: 25vh;
+  height:5vh;
+  text-align: center;
+  align-self: center;
+  align-items: center;
+  margin-left: 4%;
+  padding-bottom: 30px;
+  border: none;
+}
+
+
+.mainpics img {
+height: 40vh;
+width: 100vh;
+}
+
+.mainpics p {
+font-size: 20px;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+}
+
+.trend p{
+text-align: center;
+font-size: 40px;
+text-decoration: none;
+color: rgb(0, 0, 0);
+font-weight: medium;
+padding-top: 80px;
+padding-bottom: 30px;
+font-family: 'Quicksand', sans-serif;
+}
+.trendingproducts img{
+height:40vh;
+width:100%;
+padding: 5px;
+padding-bottom: 5px;
+margin-left: 0px;
+
+}
+
+
+.trendingproducts p{
+text-decoration: none;
+font-size: 20px;
+text-align: center;
+font-weight: lighter;
+font-family: 'Montserrat', sans-serif;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.trendingproducts button{
+  padding: 15px 10px;
+  color: black;
+  background-color:white ;
+  margin-top: 5px;
+  transition: transform 0.2s ease-in-out;
+  width: 25vh;
+  height:5vh;
+  text-align: center;
+  align-self: center;
+  align-items: center;
+  margin-left: 4%;
+  padding-bottom: 30px;
+  border: none;
+
+
+
+}
+.trendingproducts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.trending1B {
+  margin-top: 10px; 
+  
+}
+.custom-braclets{
+background-color: rgb(204, 241, 243);
+width:100%;
+height: auto;
+padding: 20px;
+border-radius: 20px;
+display: flex;
+text-align: center;
+
+
+}
+.text-container{
+flex-grow: 1;
+padding: 1px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+
+}
+
+.custom-header1 p{
+text-decoration: none;
+font-size: 20px;
+text-align: center;
+padding-top: 60px;
+padding-bottom: 10px;
+}
+
+.custom-info p{
+text-decoration: none;
+font-size: medium;
+text-align: center;
+padding-right: 15px;
+padding-bottom: 20px;
+
+
+
+}
+
+.custom-button button{
+  padding: 15px 10px;
+  color: white;
+  background-color:black ;
+  margin-top: 5px;
+  transition: transform 0.2s ease-in-out;
+  width: 25vh;
+  height:5vh;
+  text-align: center;
+  align-self: center;
+  align-items: center;
+  margin-left: 4%;
+  padding-bottom: 30px;
+  border: none;
+
+}
+.custom-image img{
+display: none;
+}
+.custom-necklace{
+  background-color: rgb(248, 197, 248);
+  width:100%;
+  height: auto;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  text-align: center;
+
+}
+.giveback-title{
+text-decoration: none;
+font-size: large;
+font-weight: bold;
+padding-top: px;
+background: linear-gradient(180deg, rgba(255,255,255,0) 30%, #b9efff 65%);
+display: inline;
+justify-content: center;
+text-align: center;
+
+}
+.try{
+text-align: center;
+margin-top: 150px;
+}
+
+
+
+
+.giveback-main{
+display: grid;
+grid-template-columns: repeat(1,1fr);
+gap:20px;
+padding-top: 40px;
+
+}
+
+.main {
+text-align: center;
+
+
+}
+
+.giveback-main img{
+height: 80px;
+width: 60px;
+align-self: center;
+padding-left: 20px;
+}
+.giveback-head p{
+text-decoration: none;
+font-size: medium;
+text-align: center;
+font-weight: lighter;
+padding-top: 5px;
+
+}
+.giveback-info p{
+text-decoration: none;
+font-size: small;
+text-align: center;
+font-weight: lighter;
+padding-top: 7px;
+}
+.reviews{
+background-color: rgb(193, 241, 241);
+height: 250px;
+width:100%;
+padding: 10px;
+margin-left: 0%;
+
+margin-top: 100px;
+
+
+}
+.magazine-image{
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+  
+}
+.magazine-image img{
+  width:8vh;
+  margin-left: 0px;
+  margin-right: 10px;
+
+
+}
+
+.reviews p{
+letter-spacing: 1px;
+padding-top: 0px;
+text-decoration: none;
+font-size: larger;
+
+text-align: center;
+
+}
+
+.cust-review {
+text-align: center;
+padding-top: 10px;
+
+}
+.stars img{
+height: 80px;
+width: 80px;
+display: none;
+
+}
+
+.footer p{
+text-decoration: none;
+background-color: black;
+color: white;
+font-size: 17px;
+text-align: center;
+font-weight:lighter;
+height: 0px ;
+padding-bottom: 20px;
+width: 100%;
+padding-top: 4px;
+font-family: 'Nunito', sans-serif;
+}
+
+
+/* NEW ARRIVAL */
+.allproducts p{
+  text-align: center;
+  color: black;
+  letter-spacing: 1.5px;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Quicksand', sans-serif;
+ 
+}
+.shopproduct{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  padding:30px;
+
+
+}
+
+.shopimg img{
+  height: 40vh;
+  width: 40vh;
+  padding-left: 17vh;
+  
+
+}
+.productline p{
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.shopbutton button{
+  color: black;
+  background-color:white ;
+  margin-left: 44.5%;
+  margin-top: 5px;
+  padding: 5px;
+  margin-right: 50px;
+  font-size: 13px;
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: transform 0.2s ease-in-out;
+  border: none;
+  
+}
+.shopbutton{
+  margin-right: 25px;
+}
+
+.Cover button:hover {
+  transform: translateX(-50%) scale(1.1);
+}
+.mainpics button:hover {
+  transform: scale(1.1);
+}
+.trendingproducts button:hover {
+  transform:  scale(1.1);
+}
+.custom-button button:hover {
+  transform: t scale(1.5);
+}
+.shopbutton button:hover {
+  transform: scale(1.1);
+}
+
+/*  Contact page*/
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+input[type="button"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color: #45a049;
+}
+
+
+#thank-you-msg {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.info1{
+  display:grid;
+  grid-template-columns: repeat(1,1fr);
+  gap:80px;
+  padding:30px;
+
+}
+.info{
+  flex-grow: 1;
+}
+
+.first-info{
+  color:rgba(181, 44, 44, 0.986) ;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  font-size:14px ;
+  font-family: 'Diphylleia', serif
+
+}
+.second-info{
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-family: 'Diphylleia', serif
+}
+
+.brand-img img{
+  height: 30vh;
+  width: 100%;
+  grid-column: 1/2;
+  padding-left: 0px;
+
+  
+}
+.main-info{
+  font-size:20px;
+  line-height: 25px;
+  font-family: 'Diphylleia', serif;
+}
+
+
+
+  
+    
+
+  
+
+
+
+
+ 
+
+
+    
