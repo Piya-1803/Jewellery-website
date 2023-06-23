@@ -61,7 +61,7 @@ padding-bottom: 81px;
 .Cover h3 {
 color: rgb(255, 255, 255);
 position: absolute;
-top: 45%;
+top: 25%;
 left: 50%;
 transform: translateX(-50%);
 font-size: 20px;
@@ -70,7 +70,7 @@ font-size: 20px;
 .Cover h2 {
   color: rgb(255, 255, 255);
   position: absolute;
-  top: 55%;
+  top: 30%;
   left: 50%;
   transform: translateX(-50%);
   font-size: 28px;
@@ -81,14 +81,14 @@ font-size: 20px;
 .Cover h5 {
 color: rgb(255, 255, 255);
 position: absolute;
-top: 70%;
+top: 45%;
 left: 50%;
 transform: translateX(-50%);
 font-size: 13px;
 }
 .Cover button{
 position: absolute;
-top: 80%;
+top: 50%;
 left: 50%;
 transform: translateX(-50%);
 background-color: white;
